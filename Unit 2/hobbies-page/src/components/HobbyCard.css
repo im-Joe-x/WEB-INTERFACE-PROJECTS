@@ -1,0 +1,40 @@
+.hobby-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, border-color 0.25s ease;
+}
+
+.hobby-card:hover {
+  transform: translateY(-4px);
+  border-color: var(--accent);
+}
+
+.hobby-card__visual {
+  height: 190px;
+}
+
+.hobby-card__content {
+  padding: 22px 24px 26px;
+}
+
+.hobby-card__title {
+  font-family: "Sora", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 10px;
+}
+
+.hobby-card__description {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}

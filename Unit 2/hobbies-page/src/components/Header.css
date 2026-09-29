@@ -1,0 +1,32 @@
+.hobbies-header {
+  text-align: center;
+  padding: 72px 24px 48px;
+}
+
+.hobbies-eyebrow {
+  font-family: "Manrope", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 14px;
+}
+
+.hobbies-title {
+  font-family: "Sora", sans-serif;
+  font-weight: 800;
+  font-size: clamp(40px, 6vw, 64px);
+  color: var(--text-primary);
+  letter-spacing: -1px;
+  margin-bottom: 14px;
+}
+
+.hobbies-subtitle {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  color: var(--text-secondary);
+  max-width: 480px;
+  margin: 0 auto;
+  line-height: 1.6;
+}

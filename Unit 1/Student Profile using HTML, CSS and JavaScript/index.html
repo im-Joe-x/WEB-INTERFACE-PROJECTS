@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Student Profile</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="input-section">
+    <h1><span>Student</span> Profile</h1>
+    <p class="sub">Enter the details below to build the profile.</p>
+
+    <div class="field-group">
+      <label for="nameInput">Full Name</label>
+      <input type="text" id="nameInput">
+    </div>
+
+    <div class="field-group">
+      <label for="rollInput">Roll No</label>
+      <input type="text" id="rollInput">
+    </div>
+
+    <div class="field-group">
+      <label for="marksInput">Marks (out of 100)</label>
+      <input type="number" id="marksInput" min="0" max="100">
+    </div>
+
+    <button class="generate-btn" id="generateBtn">Generate Profile</button>
+  </div>
+
+  <div class="result-section">
+    <div class="initials-badge" id="initialsBadge">?</div>
+    <h2 id="outName">—</h2>
+    <div class="roll">Roll No: <span id="outRoll">—</span></div>
+
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="label">Marks</div>
+        <div class="value" id="outMarks">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Percentage</div>
+        <div class="value" id="outPercent">—</div>
+      </div>
+      <div class="stat-card grade">
+        <div class="label">Grade</div>
+        <div class="value" id="outGrade">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Status</div>
+        <div class="value" id="outStatusMini">—</div>
+      </div>
+    </div>
+
+    <span class="status-badge" id="outStatus" style="display:none;"></span>
+    <p class="empty-note" id="emptyNote">Fill the form and hit generate to see the profile.</p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

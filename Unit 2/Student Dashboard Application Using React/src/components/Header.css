@@ -1,0 +1,19 @@
+.app-header {
+  background: linear-gradient(90deg, #2c3e91 0%, #4a6fdc 100%);
+  color: #ffffff;
+  text-align: center;
+  padding: 24px 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.college-name {
+  font-size: 28px;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+
+.dashboard-title {
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.9;
+}

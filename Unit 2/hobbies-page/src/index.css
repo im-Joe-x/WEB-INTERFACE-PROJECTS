@@ -1,0 +1,26 @@
+:root {
+  --bg: #0a0a0f;
+  --surface: #15151d;
+  --surface-alt: #1b1b24;
+  --line: #26262f;
+  --text-primary: #f5f5f7;
+  --text-secondary: #9d9da8;
+  --accent: #9b6bff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}

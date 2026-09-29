@@ -1,0 +1,10 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.hobbies-main {
+  flex: 1;
+  padding: 0 24px 40px;
+}
